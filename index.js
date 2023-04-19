@@ -11,7 +11,7 @@ app.use(express.json());
 app.use('/persona', personaRoute);
 
 app.get('/', (req, res) => {
-  res.send("Hola soy AI, no te sorprendas 2023");
+  res.send("Hola soy AI, no te sorprendas 2023 sera uno de los mejores años");
 });
 
 app.listen(port, () => {
